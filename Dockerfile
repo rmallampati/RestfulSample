@@ -1,4 +1,4 @@
-FROM rmallampati:1.0
+FROM rmallampati:RestfulSample
 
 MAINTAINER  Rahul Mallampati <mallampati.rahul@gmail.com>
 
