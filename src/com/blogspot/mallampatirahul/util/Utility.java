@@ -19,7 +19,7 @@ public class Utility {
 		Driver driver=(Driver) clazz.newInstance();
 		Properties prop = new Properties();
 		prop.setProperty("user", "root");
-		prop.setProperty("password", "VenkuSyama16");
+		prop.setProperty("password", "");
 		Connection connection=(Connection) driver.connect("jdbc:mysql://localhost:3306/Restful_Angular_JS_DB", prop);
 		return connection;
 	}
